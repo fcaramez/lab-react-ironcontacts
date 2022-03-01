@@ -9,7 +9,7 @@ function App() {
     const random =
       contactsData[Math.floor(Math.random() * contactsData.length)];
       
-    setContacts((contacts) => [random, ...contacts]);
+    setContacts([random, ...contacts]);
   };
 
   const sortName = () => {
